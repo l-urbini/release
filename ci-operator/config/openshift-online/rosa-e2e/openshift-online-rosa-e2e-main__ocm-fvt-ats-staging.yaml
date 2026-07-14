@@ -29,7 +29,7 @@ tests:
   nested_podman: true
   steps:
     env:
-      OCM_FVT_SERVICE: at
+      OCM_FVT_SERVICE: ats
       OCM_FVT_JOB_NAME: ats-default-staging-main
       OCM_FVT_OCM_ENV: staging
     test:
